@@ -1,0 +1,30 @@
+.gallery-images .gallery-item {
+    margin-bottom: 10px;
+}
+
+.slide-wrapper .slide-item, .skill-wrapper .skill-item, .counter-wrapper .counter-item, .client-wrapper .client-item, .team-wrapper .team-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.preview {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(170, 170, 170, 0.2);
+}
+
+.preview img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {
+    right: 1rem !important;
+}
